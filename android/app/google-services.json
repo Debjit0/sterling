@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "869481097232",
+    "project_id": "taxi-booking-c03ee",
+    "storage_bucket": "taxi-booking-c03ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869481097232:android:27c908244b61862f0b8295",
+        "android_client_info": {
+          "package_name": "com.sterling.taxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869481097232-5i9flchs7jmu0m0qntutbl3j7720sr34.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sterling.taxi",
+            "certificate_hash": "56af59caa893b1c55f661ca68002386402966787"
+          }
+        },
+        {
+          "client_id": "869481097232-gfcf56bva2tig8slejsn8cr0v1jqjkk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sterling.taxi",
+            "certificate_hash": "22308185746441724372c44d8be5238cb99db091"
+          }
+        },
+        {
+          "client_id": "869481097232-ka3223rc6ob75df2iqofctl4f2prnl17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sterling.taxi",
+            "certificate_hash": "005639af0d02a45fa37b10c057c88387be86979e"
+          }
+        },
+        {
+          "client_id": "869481097232-ia6jntm6ahocen1av5hn9c4i1g82i9ik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_amlH_ZoxxNn13plIOLz6R_T9jODiVgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869481097232-ia6jntm6ahocen1av5hn9c4i1g82i9ik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
