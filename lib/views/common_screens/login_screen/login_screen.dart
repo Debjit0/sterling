@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:country_code_picker/country_code_picker.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:fl_country_code_picker/fl_country_code_picker.dart';
@@ -266,6 +268,9 @@ class _LoginScreenState extends State<LoginScreen> {
                                       print('user exists');
                                       try {
                                         print('verfying phone number');
+                                        
+
+                                 
                                         await FirebaseAuth.instance
                                             .verifyPhoneNumber(
                                           phoneNumber: '+91${phone.text}',
@@ -276,6 +281,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                           verificationFailed:
                                               (FirebaseAuthException e) {
                                             print('verification failed');
+                                            print(e.toString());
                                             ScaffoldMessenger.of(context)
                                                 .hideCurrentSnackBar();
                                             ScaffoldMessenger.of(context)
