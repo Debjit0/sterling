@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -10,7 +9,6 @@ import 'package:sterling/view_models/notification_provider.dart';
 import 'package:sterling/view_models/payment_view.dart';
 import 'package:sterling/view_models/user_view.dart';
 import 'package:sterling/views/common_screens/landing_screen/splash_screen.dart';
-
 import 'firebase_options.dart';
 
 Future<void> main() async {
